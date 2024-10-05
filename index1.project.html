@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avada Vet</title>
+    <link rel="stylesheet" href="css/fontello.css">
+    <style>
+        *{
+            margin: 0;padding: 0;box-sizing: border-box;
+        }
+        .box1{
+            width: 100%;
+            height: 70px;
+            /*background-color: aqua;*/
+            display: flex;
+            >figure{
+                width: 700px;
+                height: 200px;
+                /*border: 2px solid black;*/
+                display: flex;
+            >img{
+                width: 300px;
+                height: 80px;
+                /*border: 2px solid black;*/
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                padding-left: 70px;
+                padding-top: 10px;
+            }
+        }
+        >nav{
+                >ul{
+                    width: 70%;
+                    height: 100%;
+                    /*border: 2px solid black;*/
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-left: 750px;
+                    >li{
+                        height: 100%;
+                        width: 200px;
+                        list-style: none;
+                        /*border: 2px solid brown;*/
+                        position: relative;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        &:hover{
+                            background-color: rgb(56, 188, 139);
+                        }
+                        >a{
+                            position: absolute;
+                            /*background-color: salmon;*/
+                            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                            font-size: 20px;
+                            text-decoration: none;
+                            text-transform: capitalize;
+                            color: rgb(22, 22, 22);
+                            &:hover{
+                                color: white;
+                            }
+                            }
+                        }
+                    }
+                }
+            }
+            .box2{
+                width: 100%;
+                height: 800px;
+                background-image: url(img/pattern_bg.jpeg);
+                background-size: cover;
+                background-attachment: fixed;
+                background-position: 0 -140px;
+                >figure{
+                    width: 100%;
+                    height: 800px;
+                    >img{
+                        width: 100%;
+                        height: 800px;
+                        padding-top: 200px;
+
+                    }
+                }
+                >h1{
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: normal;
+                    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                    font-size: 60px;
+                    color: white;
+                    text-transform: capitalize;
+                    margin-top: -750px;
+                    transition: .5;
+                    &:hover{
+                        color: rgba(255, 255, 255, 0.905);
+                    }
+                }
+        }  
+        .box3{
+            width: 700px;
+            height: 500px;
+            margin-left: 40px;
+            >h2{
+                width: 100%;
+                height: 80px;
+                font-size: 40px;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                display: flex;
+                justify-content: left;
+                text-transform: capitalize;
+                padding-top: 40px;
+            }
+            >p{
+                width: 500px;
+                height: 300px;
+                font-size: 20px;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                text-transform: lowercase;
+                text-align: left;
+                padding-top: 20px;
+                color: gray;
+                &:hover{
+                    color: greenyellow;
+                }
+            }
+            >button{
+                width: 150px;
+                height: 40px;
+                font-style: 40px;
+                background-color: green;
+                color: white;
+                text-transform: uppercase;
+                border: 2px solid green;
+                transition: .5;
+                &:hover{
+                    background-color: rgba(66, 235, 66, 0.625);
+                }
+            }
+        }
+        .box4{
+            width: 100%;
+            height: 500px;
+            display: flex;
+            >figure{
+                width: 500px;
+                height: 700px;
+                >img{
+                    width: 500px;
+                    height: 400px;
+                    display: flex;
+                    outline-style: dotted;
+                    outline-color: rgb(97, 209, 49);
+                    outline-width: 10px;
+                    &:hover{
+                        filter: grayscale(45%);
+                    }
+                }
+            }
+        }
+        .end{
+            width: 100%;
+            height: 300px;
+            background-color: green;
+            >h2{
+                width: 300px;
+                height: 60px;
+                color: white;
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                font-size: 45px;
+                padding-top: 30px;
+                padding-left: 100px;
+                &:hover{
+                    color: black;
+                }
+            }
+            >h3{
+                width: 800px;
+                height: 20px;
+                padding-top: 50px;
+                padding-left: 600px;
+                color: gold;
+                &:hover{
+                    color: black;
+                }
+            }
+            .icon{
+                width: 100px;
+                height: 100px;
+                padding-left: 800px;
+                margin-top: -60px;
+                font-size: 40px;
+                &:hover{
+                    color: goldenrod;
+                }
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <figure>
+            <img src="img/logo.png" alt="logo">
+        </figure>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">home</a>
+                </li>
+                <li>
+                    <a href="">about</a>
+                </li>
+                <li>
+                    <a href="">services</a>
+                </li>
+                <li>
+                    <a href="">advice</a>
+                </li>
+                <li>
+                    <a href="">contact</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+    <div class="box2">
+        <figure>
+            <img src="img/pets_big.png" alt="">
+        </figure>
+        <h1>Professional Care For Your Pet</h1>
+
+    </div>
+    <div class="box3">
+        <h2>Expert Pet Care</h2>
+        <p>Quisque id leo non dolor tempor elementum quis ac urna. Nam pharetra, ligula eget finibus dignissim, turpis ipsum sollicitudin sem, sed vestibulum dui nisi ut purus. Quisque varius odio ante, ac viverra. Quisque id leo non dolor tempor elementum quis ac urna magna leo pulvinar felis.<br><br>Sed vestibulum dui nisi ut purus. Quisque varius odio ante, ac viverra. Quisque id leo non dolor tempor elementum quis ac urna vestibulum dui nisi ut purus, elit vitae odio tincidunt sollicitudin..</p>
+
+        <br>
+        <button>read more</button>
+    </div>
+    <div class="box4">
+        <figure>
+            <img src="img/care_1.jpeg" alt="">
+        </figure>
+        <figure>
+            <img src="img/care_2.jpeg" alt="">
+        </figure>
+        <figure>
+            <img src="img/care_3.jpeg" alt="">
+        </figure>
+    </div>
+    <div class="end">
+        <h2>developed by : sama saadati</h2>
+        <h3>@samasaadati_web</h3>
+        <h3>linkedin=sama saadati</h3>
+        <div class="icon">
+            <span class="icon-instagram-1">
+            </span>
+            <span class=" icon-linkedin-squared">
+            </span>
+        </div>
+
+    </div>
+    
+</body>
+</html>
